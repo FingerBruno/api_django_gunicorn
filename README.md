@@ -1,1 +1,3 @@
-# api_django_gunicorn
+```script
+  gunicorn -c conf.py api.wsgi
+```
