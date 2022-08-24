@@ -1,0 +1,9 @@
+server {
+        listen 80;      
+        server_name 3.83.65.186;
+
+        location / {
+                include proxy_params;
+                proxy_pass http://0.0.0.0:8000;     
+        }
+}     
